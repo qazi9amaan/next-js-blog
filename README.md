@@ -11,8 +11,8 @@ Next.js is an open-source development framework built on top of Node.js enabling
 ## Running on local server
 
 Run `npm i` for installing the node modules.<br>
-`cd /components/mongo` and paste your mongodb url inside the `getDatabase.js` <br>
-`npm run dev` to start the server. <br>Then  Navigate to `http://localhost:3000/` . The app will start loading and you can start adding the posts.
+`cd /components/mongo` and paste your `mongodb url` inside the `getDatabase.js` <br>
+Run `npm run dev` in your terminal to start the server. <br>Then  Navigate to `http://localhost:3000/` . The app will start loading and you can start adding the posts.
 
 ## Screenshots
 <img src="/screenshots/det-1.png"></img>
