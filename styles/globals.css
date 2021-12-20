@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav-item a{
+  color: rgb(88, 85, 85) !important;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.nav-active a{
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.nav-item a:hover{
+  color: #000 !important;
+  text-decoration: none;
+}
+.fixed-height-main-sec{
+  height: 95vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+.fixed-height-main-sec ::-webkit-scrollbar {
+  display: none !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.cursor-pointer :hover{
+  cursor: pointer;
+}
